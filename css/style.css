@@ -53,3 +53,7 @@ button {
 button:hover {
     background-color: var(--cor1);
 }
+
+.pause {
+    color: red;
+}
