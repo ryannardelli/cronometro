@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #013C76;
+    --cor2: #0276EB;
+    --cor3: #4A9CEE;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+main {
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#cronometro {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#botoes {
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: var(--cor2);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+}
+
+button:hover {
+    background-color: var(--cor1);
+}
